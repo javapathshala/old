@@ -7,15 +7,15 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
-title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+title                    : "Java Pathshala | Wisdom Being Shared"
+title_separator          : "|"
+name                     : "Dimit Chadha"
+description              : "Java Blog. Wisdom Being Shared.Java Unique Blog. Enhance yourself. All are invited to share and discuss our experiences with our own JAVA COUSIN with whom we spend more time than our girl friendS and Wife. It includes example code snippet, interview questions, understanding of various concepts of Java. There are articles for Technical, Solution architects that can help them to build excellent architectures."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
@@ -55,9 +55,9 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "javapathshala"
 facebook:
-  username               :
+  username               :  "pathshalajava"
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -77,17 +77,17 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Dimit Chadha"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
-  uri              :
+  bio              : "TOGAF Certified Architect"
+  location         : "New Delhi,India"
+  email            : "java.pathshala@gmail.com"
+  uri              : "www.javapathshala.com"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "pathshalajava"
   foursquare       :
   github           :
   gitlab           :
@@ -101,7 +101,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : "javapathshala"
   vine             :
   weibo            :
   xing             :
@@ -242,6 +242,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
