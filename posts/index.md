@@ -1,3 +1,3 @@
-Layout: "post-index"
-title: "All Posts"
-excerpt: "List of Posts"
+Layout: post-index
+title: All Posts
+excerpt: List of Posts
