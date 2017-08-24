@@ -1,8 +1,9 @@
 ---
+layout: single
 title: "Domain Driven Design"
 comments: true
-tags: Design Architecture
-categories: Design Architecture
+tags: Design Architecture Architects
+categories: Design Architecture Architects
 ---
 
 - Domain-driven way of building software should appeal to everyone – after all that software is being built for the benefit of that domain, not for the benefit of architects, developers or QAs.

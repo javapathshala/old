@@ -1,6 +1,7 @@
 ---
 title: "CCXML Applications"
 comments: true
+related: true
 tags: Telephony Call-Control Architectures
 categories: Telephony Call-Control Architectures
 ---

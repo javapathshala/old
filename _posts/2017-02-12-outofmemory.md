@@ -1,8 +1,8 @@
 ---
 title: "Tools for Out of Memory"
 comments: true
-tags: Performance Memory
-categories: Performance Memory
+tags: Performance Memory Architects
+categories: Performance Memory Architects
 ---
 
 ## Visualgc
