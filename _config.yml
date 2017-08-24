@@ -79,7 +79,7 @@ analytics:
 # Site Author
 author:
   name             : "Dimit Chadha"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.jpg"
   bio              : "TOGAF Certified Architect"
   location         : "New Delhi,India"
   email            : "java.pathshala@gmail.com"
@@ -90,13 +90,13 @@ author:
   flickr           :
   facebook         : "pathshalajava"
   foursquare       :
-  github           :
+  github           : "javapathshala/Codies"
   gitlab           :
-  google_plus      :
+  google_plus      : "107240470756447645941"
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "dimitchadha"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
@@ -106,7 +106,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  youtube          : #"https://www.youtube.com/channel/UCDxP9Sk9FFqr7hUzyu9eZpg?view_as=subscriber"
 
 
 # Reading Files
@@ -242,7 +242,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      
+
   # _posts
   - scope:
       path: ""
