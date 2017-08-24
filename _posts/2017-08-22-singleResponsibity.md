@@ -2,6 +2,7 @@
 title: "Single Responsibility"
 comments: true
 tags: Design-Principles Architectures Architects
+categories: Design-Principles Architectures Architects
 ---
 
 A class should have one & only one reason for change. Responsibility here is reason for change. If there are two reasons for a change in a class, then there is a need to split class functionality into two. Each class will handle only one responsibility
