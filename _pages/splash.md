@@ -35,6 +35,8 @@ github:
 intro:
   - excerpt: ''
 ---
+{% include subscribesidebar.html %}
+
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
