@@ -15,6 +15,5 @@ Idea is to design a class which has one responsibility or in other words caters 
 One responsibility doesn’t mean that the class has only one method. A responsibility can be implemented by means of different methods in the class.
 Decompose the class functionalities into different classes, each of which confirms to SRP.
 
-
 Why Required?
 Imagine designing classes implementing more than one responsibility functionality. Ideally no harm in doing so but this would increase the class dependency which would impact other functionalities implemented in the class. The changes might or might not impact other features, but to be on safer side, teams end up testing all the dependent features. Changes get accumulate owing to the viscosity of the code making it fragile and rigid. So better to have one class per responsibility or functionality.

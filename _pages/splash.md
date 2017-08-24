@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: archive
 permalink: /
 author_profile: true
 header:
@@ -16,7 +16,7 @@ feature_row:
     #alt: "customizable"
     title: "Wisdom"
     excerpt: "Everything techical blog."
-    url: "/post/"
+    url: "/posts/"
     btn_label: "Learn More"
   - image_path: /assets/images/mm-responsive-feature.png
     alt: "fully responsive"
@@ -40,3 +40,15 @@ intro:
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
+
+<div class="grid__wrapper">
+<!-- {% capture written_year %}'None'{% endcapture %} -->
+{% for post in site.posts %}
+  <!-- {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %} -->
+  <!-- {% if year != written_year %}
+    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
+    {% capture written_year %}{{ year }}{% endcapture %}
+  {% endif %} -->
+  {% include archive-single.html type="grid" %}
+{% endfor %}
+</div>
